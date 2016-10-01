@@ -113,7 +113,7 @@ int main(int argc, char *argv[])
                 }
                 if (sequencia == 5)
                 {
-                    municipio[(contador_agencia)] = entrada[contador];
+                    agencia[(contador_agencia)] = entrada[contador];
                     contador_agencia++;
                 }
                 if (sequencia > 5)
@@ -200,7 +200,7 @@ int main(int argc, char *argv[])
         setenv("MAQUINA", maquina, 1);
         setenv("DATA_IMPORTACAO", data, 1);
         setenv("MUNICIPIO", municipio, 1);
-
+		setenv("AGENCIA", agencia, 1);
 
 
         (fp = fopen("saida.txt","w"));
