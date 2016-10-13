@@ -4,7 +4,7 @@
  Author      : Miguel Suez Xve Penteado
  Version     :
  Copyright   : Isto eh um software livre.
- Description : Hello World in C, Ansi-style
+ Description : Formata nomeação de arquivos.
  ============================================================================
  */
 
